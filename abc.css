@@ -1,0 +1,54 @@
+/* Style for header */
+header {
+    background-color: #FF;
+    color: #080;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #080;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style for main sections */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for footer */
+footer {
+    background-color: #080;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

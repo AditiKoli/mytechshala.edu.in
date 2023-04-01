@@ -1,0 +1,33 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tech Shala Registration Form</title>
+    <link rel="stylesheet" href="register.css">
+  </head>
+  <body>
+    <form>
+      <center><h1>Tech Shala Registration Form</h1></center>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="Roll No.">Roll No:</label>
+      <input type="text" id="Roll No." number="Roll No." required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+      <label for="course">Course:</label>
+      <select id="course" name="course" required>
+        <option value="">Select Course</option>
+        <option value="EJ">EJ</option>
+        <option value="IF">IF</option>
+        <option value="CO">CO</option>
+      </select> <br></br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <label for="confirm password">Confirm Password:</label>
+      <input type="password" id="confirm password" name="confirm password" required><br><br>
+     <center> <input type="submit" value="Register"></center>
+    </form>
+  </body>
+</html>
